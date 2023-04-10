@@ -1,0 +1,197 @@
+a{
+  display: inline-block;
+}
+nav.custom-nav {
+  background-color:#000000;
+}
+nav.custom-nav .navbar-nav .nav-link.active,nav.custom-nav .navbar-nav .show>.nav-link{
+  color:#dd1928;
+}
+nav.custom-nav .nav-link{
+  color: #fff;
+}
+.instalogo-wr a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.instalogo-wr {
+  width: auto;
+  margin-right: 15px;
+}
+.navbar-inner-wr.d-flex {
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+
+ul.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.navigation-menu-sec {
+  align-items: center;
+  margin: 0 auto;
+}
+.mobile-menu-wr {
+  width: 100%;
+}
+
+li.nav-item {
+  margin-left: 65px;
+}
+li.nav-item a{
+  color: #fff;
+}
+li.nav-item:first-child {
+  margin-left: 0px;
+}
+.navigation-menu-sec svg path {
+  fill: #fff;
+ 
+}
+.navigation-menu-sec svg {
+  font-size: 30px;
+  display: none;
+}
+@keyframes example {
+  0% {transform: translateY(-50%);}
+  50% {transform: translateY(0%);}
+ 
+
+}
+nav.fixed {
+  position: fixed;
+  padding-top: 10px;
+  animation-name: smoothScroll;
+  animation-duration: 0.6s;
+  z-index: 111;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 -4px 13px -10px #c1c1c19e inset;
+  animation-name: example;
+  animation-duration: 4s;
+}
+h1.service-heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0px 0px;
+}
+/* counter css start */
+.counter-wr {
+  text-align: center;
+  background-color: #0080804d;
+  padding: 80px 0px;
+  margin: 50px 0px;
+}
+.intro h1 {
+  margin-bottom: 35px;
+}
+.intro {
+  margin: 0px 0px 50px;
+}
+.counter-box {
+  background-color: #fff;
+  padding: 50px 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 23px 0px rgba(0 0 0/10%);
+}
+.counter-box i {
+  font-size: 40px;
+  color: red;
+}
+.counter-box h2 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.counter-main-wr h1 {
+  margin-bottom: 40px;
+  color: brown;
+}
+/* counter css end */
+/* slider css start */
+.home-demo .item {
+  background: #df0f1fd4;
+}
+.home-demo h2 {
+  color: #FFF;
+  text-align: center;
+  padding: 5rem 0;
+  margin: 0;
+  font-style: italic;
+  font-weight: 300;
+}
+.home-demo {
+  text-align: center;
+  margin: 50px 5px;
+}
+.owl-nav button{
+  width: 60px;
+  height: 40px;
+}
+.owl-nav span {
+  font-size: 47px;
+  line-height: 17px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+/* slider css end */
+/* swiper slider css start */
+.swiper-slider-wr .swiper {
+  padding: 50px 0px !important;
+}
+.swiper-slider-wr .swiper-pagination {
+  bottom: 0px !important;
+}
+
+
+/* swiper slider css end */
+/* services page tab css start */
+.tabs {
+  /* width: 600px; */
+  margin: 0 auto 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px 5px 5px 5px;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0 20px 0px 0px;
+  padding: 5px;
+  overflow: auto;
+  background-color: #e43745;
+  width: 150px;
+}
+ul#tabs-nav li {
+  
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #f39a9a47;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  border:5px solid #e43745;
+  background-color: #FFF;
+}
+.tab-content h2 {
+  color: #e43745;
+}
+.material-ui-testing{
+  text-align: center;
+  margin: 50px 0px;
+}
+/* services page tab css end */
+
